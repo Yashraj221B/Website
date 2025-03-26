@@ -20,7 +20,7 @@ html {
 .container {
     background-color: #dff3ff;
     padding: 2rem 4rem;
-    gap: 4rem
+    gap: 2.8rem
 }
 
 .spacer {
@@ -493,4 +493,97 @@ html {
     .outro {
         font-size: small
     }
+}
+
+.sub-title2{
+    padding: 24px;
+    font-size: 2rem;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+}
+
+.input input{
+    font-size: 1.3rem;
+    padding: 10px;
+    width: 600px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 3px solid rgb(0 0 0 / 8%);
+    outline:none;
+    font-family:Oxanium;
+}
+
+.input label{
+    font-weight: 600;
+}
+
+.input textarea{
+    font-size: 1.3rem;
+    padding: 10px;
+    width: 600px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 3px solid rgb(0 0 0 / 8%);
+    outline:none;
+    font-family:Oxanium;
+}
+
+.input input:focus{
+    border: 3px solid #6e07f3;
+}
+
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+}
+
+.input-r{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 1.6rem;
+}
+
+.input-r p{
+    margin: 0;
+    font-weight: 600;
+}
+
+.div-1{
+    width: 624px;
+}
+
+button{
+    width: 600px;
+    color: white;
+    background-color: #6e07f3;
+    border: none;
+    padding: 20px;
+    font-size: 1.4rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #68217a;
+}
+
+button:active{
+    background-color: #6b0061;
+}
+
+
+.social-links img{
+    width: 40px;
+    height: 40px;
+    margin: 0 8px;
+}
+.social-links a{
+    text-decoration: none;
 }
